@@ -4,10 +4,12 @@
 
 .team__list {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .team__image {
+    display: block;
     margin-bottom: 30px;
 }
 
