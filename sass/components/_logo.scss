@@ -1,0 +1,22 @@
+.logo {
+    margin-right: 93px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--attention-color);
+}
+
+.logo__dark {
+    color: var(--black-color);
+}
+
+.logo__light {
+    color:var(--background-color);
+}
+
+.logo-footer {
+    display: block;
+    margin-bottom: 20px;
+}
