@@ -9,6 +9,7 @@
 
 // components styles
 @import './components/logo';
+@import './components/mobile-menu';
 @import './components/btn';
 @import './components/socials';
 @import './components/address';
@@ -22,10 +23,9 @@
 // layouts style
 @import './layouts/header';
 @import './layouts/site-nav';
-@import './layouts/hero';
+// @import './layouts/hero';
 @import './layouts/advantage';
 @import './layouts/activity';
 @import './layouts/team';
-@import './layouts/clients';
-@import './layouts/footer';
+// @import './layouts/footer';
 @import './layouts/portfolio';

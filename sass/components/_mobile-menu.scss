@@ -1,0 +1,13 @@
+.menu-btn {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    @media screen and (min-width:768px) {
+        display: none;
+    }
+
+}
