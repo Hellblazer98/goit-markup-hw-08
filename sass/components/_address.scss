@@ -1,5 +1,14 @@
+.addresses {
+    margin-bottom: 60px;
+
+    @media screen and (min-width:1200px) {
+            margin-bottom: 0;;
+        }
+}
+
 .addresses__link {
     display: block;
+    text-align: center;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -10,20 +19,29 @@
 
     &--white {
     color: var(--background-color);
-    margin-bottom: 9px;
+    margin-bottom: 8px;
+
+        @media screen and (min-width:1200px) {
+            margin-bottom: 9px;;
+        }
     }
 
     &:hover,
     &:focus {
         color: var(--attention-color);
     }
-
     
+    @media screen and (min-width:1200px) {
+            text-align: left;;
+        }
 }
 
 
 .adresses__item {
     margin-bottom: 9px;
+         @media screen and (min-width:1200px) {
+            margin-bottom: 9px;;
+        }
 
     &:last-child {
     margin-bottom: 0;
