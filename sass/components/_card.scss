@@ -3,6 +3,18 @@
     overflow: hidden;
 }
 
+.card__image {
+    width: 450px;
+
+    @media screen and (min-width:768px) {
+        width: 354px;
+    }
+
+    @media screen and (min-width:1200px) {
+        width: 370px;
+    }
+}
+
 .card__overlay {
     position: absolute;
     top: 0;
