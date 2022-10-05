@@ -1,15 +1,29 @@
 .portfolio__list {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     gap: 30px;
+
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+    }
 }
 
 .portfolio__item {
-    flex-basis: calc((100% - 30px * 2) / 3);
+    display: flex;
+    @media screen and (min-width: 768px) {
+        flex-basis: calc((100% - 30px) / 2);
+    }
+
+    @media screen and (min-width: 1200px) {
+        flex-basis: calc((100% - 30px * 2) / 3);
+    }
+
 }
 
 .portfolio__link {
-    display: block;
+    display: flex;
+    flex-direction: column;
     transition: box-shadow var(--anim-hover);
 
     &:hover,
@@ -26,6 +40,7 @@
 
 
 .portfolio__wrapper {
+    flex-grow: 1;
     border: 1px solid #EEEEEE;
     border-top: none;
     padding: 20px 24px;
