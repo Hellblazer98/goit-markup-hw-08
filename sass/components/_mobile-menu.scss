@@ -28,10 +28,10 @@
     
     background-color: var(--background-color);
 
-    transform: translateX(100%);
+    transform: translateX(150%);
     transition: 400ms;
 
-    @media screen and (min-width: 481px) {
+    @media screen and (min-width: 768px) {
     display: none;
   }
 
@@ -102,6 +102,7 @@
 .mobile-socials {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 10px;
     
 }
