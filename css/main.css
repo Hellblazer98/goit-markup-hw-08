@@ -933,6 +933,11 @@ body {
       -ms-user-select: none;
           user-select: none;
 }
+@media screen and (max-width: 479px) {
+  .card__descr {
+    font-size: 16px;
+  }
+}
 
 .header {
   border: 1px solid #ECECEC;
