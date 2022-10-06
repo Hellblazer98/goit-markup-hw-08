@@ -7,7 +7,7 @@
     cursor: pointer;
     padding: 0;
 
-    @media screen and (min-width:768px) {
+    @media screen and (min-width:481px) {
         display: none;
     }
 
@@ -31,7 +31,7 @@
     transform: translateX(100%);
     transition: 400ms;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 481px) {
     display: none;
   }
 

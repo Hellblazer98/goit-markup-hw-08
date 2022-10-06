@@ -183,7 +183,7 @@ body {
   cursor: pointer;
   padding: 0;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 481px) {
   .menu-btn {
     display: none;
   }
@@ -209,7 +209,7 @@ body {
   -webkit-transition: 400ms;
   transition: 400ms;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 481px) {
   .menu-container {
     display: none;
   }
