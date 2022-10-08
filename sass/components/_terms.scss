@@ -30,6 +30,10 @@
     }
 }
 
+.terms__icons {
+    cursor: pointer;
+}
+
 .icon-checked {
     opacity: 0;
     transition: var(--anim-hover);
